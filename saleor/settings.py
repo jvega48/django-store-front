@@ -350,7 +350,7 @@ TEST_RUNNER = ''
 #ALLOWED_HOSTS = get_list(os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1'))
 
 ALLOWED_HOSTS = get_list(
-    os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1', 'https://demo-django-x1.herokuapp.com'))
+    os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1'))
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
