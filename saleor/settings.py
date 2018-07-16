@@ -41,7 +41,7 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
-INTERNAL_IPS = get_list(os.environ.get('INTERNAL_IPS', '127.0.0.1'))
+INTERNAL_IPS = get_list(os.environ.get('INTERNAL_IPS', 'https://demo-django-x1.herokuapp.com'))
 
 # Some cloud providers like Heroku export REDIS_URL variable instead of CACHE_URL
 REDIS_URL = os.environ.get('REDIS_URL')
